@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    color:  black;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.963);
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+}
+nav{
+    display: flex;
+    padding: 15px;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    margin-right:380px;
+}
+
+nav a{
+    color: #f5cb6f;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    color: white;
+    background-color: #f5cb6f;
+}
+/* Hero section */
+.hero {
+    background-color: #f5cb6f;
+    text-align: center;
+    padding: 35px 20px;
+    min-height: auto;
+    /* height: auto; */
+    
+}
+.hero h1{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.hero p{
+    margin-bottom: 25px;
+    color: black;
+}
+
+.hero img{
+    display: block;
+    width: 55%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+     margin: 25px auto;
+} 
+.hero button{
+    background-color: black;
+    color: #f5cb6f;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor:all-scroll;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.about{
+    padding: 70px 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.about h2{
+    color: #f5cb6f;
+    margin-bottom: 20px;
+} 
+.about p{
+    color: #f5cb6f
+}
+.contact h2 {
+    color: #111;
+    margin-bottom: 20px;
+
+}
+.contact a{
+    color: #111;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+.contact p{
+    margin-bottom: 10px;
+}
+.contact{
+    background-color: #f5cb6f;
+    text-align: center;
+    padding: 50px 20px;
+    gap: 20px;
+}
+
+footer{
+    background-color: black;
+    color: #f5cb6f;
+    text-align: center;
+    padding: 20px;
+}
